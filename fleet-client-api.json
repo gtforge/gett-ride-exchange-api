@@ -2388,7 +2388,7 @@
         }
       }
     },
-    "/v1/rex_ride/orders/{order_id}/stop_points" : {
+    "/v1/rex_ride/order/{order_id}/stop_points" : {
       "post" : {
         "tags" : [ "v1" ],
         "summary" : "Stop point action",
