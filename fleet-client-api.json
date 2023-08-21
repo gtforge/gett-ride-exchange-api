@@ -1,7 +1,7 @@
 {
   "openapi" : "3.0.0",
   "info" : {
-    "title" : "Fleet Client API",
+    "title" : "Fleet To Gett API",
     "version" : "1.0.0-oas3"
   },
   "externalDocs" : {
