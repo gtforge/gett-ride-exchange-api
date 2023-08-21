@@ -1,7 +1,7 @@
 {
   "openapi" : "3.0.0",
   "info" : {
-    "title" : "Gett To Fleet API",
+    "title" : "Gett to Fleet API",
     "description" : "Fleet Server API. The API needs to be implemented by fleet server in order to receive ASAP from Gett",
     "contact" : {
       "name" : "Gett"
