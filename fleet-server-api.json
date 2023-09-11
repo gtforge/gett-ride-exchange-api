@@ -185,7 +185,7 @@
     "/api/v1/ride_exchange/current_order" : {
       "post" : {
         "tags" : [ "v1" ],
-        "summary" : "Receive Order",
+        "summary" : "Receive ASAP Order",
         "description" : "This endpoint will be called when Gett passes new ASAP order to the fleet. This request should return 201 in case order created successfully. 400 if request with given parameters cannot be satisfied. There is a chance this request will be sent several times with same order ID. In this case the fleet server is required to return 201. This can happen if there is a network disconnect and Gett server performs retry. If 500 returned, Gett server will perform retry.",
         "requestBody" : {
           "description" : "All order information",
