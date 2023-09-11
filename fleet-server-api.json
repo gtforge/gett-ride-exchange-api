@@ -1021,8 +1021,8 @@
           },
           "currency" : {
             "type" : "string",
-            "description" : "As symbol for UK, RU or IL: £, ₽, ₪. ISO 4217 code for all other countries: USD, EUR.",
-            "enum" : [ "£", "₽", "₪", "USD", "EUR" ]
+            "description" : "ISO 4217 code of the currency: GBP, ILS, USD, EUR.",
+            "enum" : [ "GBP", "ILS", "USD", "EUR" ]
           },
           "arriving_flight_info" : {
             "$ref" : "#/components/schemas/models.ArrivingFlight"
