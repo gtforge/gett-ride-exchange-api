@@ -1429,7 +1429,7 @@
       "models.currency_code" : {
         "type" : "string",
         "description" : "Currency code for the price returned in quote in ISO 4217 format.",
-        "enum" : [ "GBP", "NIS", "USD", "EUR" ]
+        "enum" : [ "GBP", "ILS", "USD", "EUR" ]
       },
       "models.NearbyDriversResponse_nearby_drivers" : {
         "type" : "object",
