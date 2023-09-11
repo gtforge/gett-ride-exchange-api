@@ -3114,7 +3114,7 @@
       "models.Currency_code" : {
         "type" : "string",
         "description" : "Currency code for the final price.",
-        "enum" : [ "GBP", "NIS", "USD", "EUR" ]
+        "enum" : [ "GBP", "ILS", "USD", "EUR" ]
       },
       "models.StopPointActionRequest" : {
         "title" : "Stop Point Action",
