@@ -1896,6 +1896,11 @@
                     {
                         "type": "string",
                         "description": "Example: \"LHR\" for London Heathrow. \"JFK\" for John F. Kennedy International Airport."
+                    },
+                    "flight_offset":
+                    {
+                        "type": "integer",
+                        "description": "The delay in minutes between the actual landing time of a flight and scheduled_at_time"
                     }
                 },
                 "description": "Optional. Information in IATA format about passenger's flight.",
