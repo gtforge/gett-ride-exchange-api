@@ -1,8 +1,8 @@
 {
   "openapi" : "3.0.0",
   "info" : {
-    "title" : "Gett to Fleet API",
-    "description" : "Fleet Server API. The API needs to be implemented by fleet server in order to receive ASAP from Gett",
+    "title" : "(Legacy) Gett to Fleet API",
+    "description" : "Fleet Server API. The API needs to be implemented by fleet server in order to receive ASAP from Gett. This version should no longer be used by new integrating partners.",
     "contact" : {
       "name" : "Gett"
     },
