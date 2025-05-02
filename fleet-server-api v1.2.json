@@ -3,7 +3,7 @@
     "info":
     {
         "title": "Gett to Fleet API v1.2",
-        "description": "Fleet Server API. The API needs to be implemented by fleet server in order to receive ASAP from Gett",
+        "description": "Fleet Server API. Compulsory to be used by any new integrating partner. The API needs to be implemented by fleet server in order to receive ASAP from Gett. This version contains changes to the addresses and passenger data objects to support complex routes with multiple pickup and drop-off locations.",
         "contact":
         {
             "name": "Gett"
@@ -2519,9 +2519,9 @@
         {
             "ApiKeyAuth":
             {
-                "type": "apiKey",
-                "name": "Authorization",
-                "in": "header"
+                "type": "http",
+                "scheme": "bearer",
+                "description": "Authentication requires a static Bearer token provided by Gett before integration launch.\nThis token must be included in the `Authorization` header on every request.\nThe token itself does not expire but can be rotated upon request.\n\n**Format:**\n`Authorization: Bearer {your-static-gett-token}`\n\nPlease contact Gett support if you need your token or require a rotation."
             }
         }
     },
