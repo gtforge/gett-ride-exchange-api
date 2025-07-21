@@ -339,9 +339,6 @@
                             {
                                 "order_id": "gl:1674121209:3:1",
                                 "order_comment": "Call me on arrival",
-                                "rider_phone_number": "447000000000",
-                                "rider_first_name": "Max",
-                                "rider_last_name": "S",
                                 "service_type": "Standard",
                                 "price": 10.1,
                                 "currency": "GBP",
@@ -541,9 +538,6 @@
                             {
                                 "order_id": "gl:1674121209:3:1",
                                 "order_comment": "Call me on arrival",
-                                "rider_phone_number": "441000000000",
-                                "rider_first_name": "Paul",
-                                "rider_last_name": "B",
                                 "scheduled_at": "2024-04-01 01:00:00.000 +01:00",
                                 "service_type": "Standard",
                                 "price": 10.1,
@@ -1580,19 +1574,6 @@
                         "description": "The timestamp of arrival to pickup",
                         "format": "date-time"
                     },
-                    "rider_first_name":
-                    {
-                        "type": "string"
-                    },
-                    "rider_last_name":
-                    {
-                        "type": "string"
-                    },
-                    "rider_phone_number":
-                    {
-                        "type": "string",
-                        "description": "Phone number can be masked"
-                    },
                     "rider_vip":
                     {
                         "type": "object",
@@ -1682,19 +1663,6 @@
                     {
                         "type": "string",
                         "description": "Gett order ID for reference"
-                    },
-                    "rider_first_name":
-                    {
-                        "type": "string"
-                    },
-                    "rider_last_name":
-                    {
-                        "type": "string"
-                    },
-                    "rider_phone_number":
-                    {
-                        "type": "string",
-                        "description": "Phone number can be masked"
                     },
                     "rider_vip":
                     {
