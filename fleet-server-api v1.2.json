@@ -347,7 +347,7 @@
                                 "currency": "GBP",
                                 "quote_id": "1",
                                 "reference_order_id": "1674121209",
-                                "is_vip": true,
+                                "rider_vip": { "is_vip": true },
                                 "stop_points_info":
                                 {
                                     "stop_points":
@@ -550,6 +550,7 @@
                                 "currency": "GBP",
                                 "quote_id": "1",
                                 "reference_order_id": "1674121209",
+                                "rider_vip": { "is_vip": false },
                                 "stop_points_info":
                                 {
                                     "stop_points":
@@ -1592,10 +1593,18 @@
                         "type": "string",
                         "description": "Phone number can be masked"
                     },
-                    "is_vip":
+                    "rider_vip":
                     {
-                        "type": "boolean",
-                        "description": "Requires coordination with Gett. Can be sent to flag whether a passenger is agreed to be treated as VIP. If true, then VIP."
+                        "type": "object",
+                        "description": "VIP status information for the rider",
+                        "properties":
+                        {
+                            "is_vip":
+                            {
+                                "type": "boolean",
+                                "description": "Requires coordination with Gett. Can be sent to flag whether a passenger is agreed to be treated as VIP. If true, then VIP."
+                            }
+                        }
                     },
                     "order_comment":
                     {
@@ -1687,10 +1696,18 @@
                         "type": "string",
                         "description": "Phone number can be masked"
                     },
-                    "is_vip":
+                    "rider_vip":
                     {
-                        "type": "boolean",
-                        "description": "Requires coordination with Gett. Can be sent to flag whether a passenger is agreed to be treated as VIP. If true, then VIP."
+                        "type": "object",
+                        "description": "VIP status information for the rider",
+                        "properties":
+                        {
+                            "is_vip":
+                            {
+                                "type": "boolean",
+                                "description": "Requires coordination with Gett. Can be sent to flag whether a passenger is agreed to be treated as VIP. If true, then VIP."
+                            }
+                        }
                     },
                     "order_comment":
                     {
